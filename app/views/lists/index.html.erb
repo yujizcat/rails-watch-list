@@ -1,0 +1,19 @@
+<h1>Lists</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Name</th>
+  </tr>
+
+  </thead>
+</table>
+
+<tbody>
+  <% @lists.each do |list| %>
+    <tr>
+      <td><%= list.name %>
+      <p></p>
+    </tr>
+  <% end %>
+</tbody>
